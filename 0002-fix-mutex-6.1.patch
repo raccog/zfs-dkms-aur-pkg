@@ -1,0 +1,14 @@
+diff --git a/module/os/linux/spl/spl-procfs-list.c b/module/os/linux/spl/spl-procfs-list.c
+index a4a24dcae2b..5e073950d61 100644
+--- a/module/os/linux/spl/spl-procfs-list.c
++++ b/module/os/linux/spl/spl-procfs-list.c
+@@ -23,7 +23,7 @@
+  */
+
+ #include <sys/list.h>
+-#include <sys/mutex.h>
+ #include <sys/procfs_list.h>
+ #include <linux/proc_fs.h>
++#include <sys/mutex.h>
+
+ /*
